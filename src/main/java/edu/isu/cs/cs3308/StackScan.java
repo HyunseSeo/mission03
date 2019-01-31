@@ -25,6 +25,7 @@ public class StackScan {
      * null, or if the stack is emtpy.
      */
     public static <E> boolean scanStack(final Stack<E> stack, E element) {
+        = new LinkedQueue();
         throw new UnsupportedOperationException("Not yet implemented");
     }
 }
