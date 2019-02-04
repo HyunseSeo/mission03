@@ -5,11 +5,13 @@ import edu.isu.cs.cs3308.structures.impl.Node;
 
 public class LinkedQueue<E> extends DoublyLinkedList<E> implements Queue<E> {
 
- // private DoublyLinkedList<E> DLLQueue = new DoublyLinkedList<E>();
+
 
   public LinkedQueue(){
 
-  };
+  }
+
+
   @Override
   public int size() {
     return size;
